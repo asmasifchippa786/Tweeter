@@ -1,0 +1,23 @@
+.uyuy{
+    width: 60%;
+    border: 1px solid white;
+    display: flex;
+}
+.maintwo{
+    width: 40%;
+    border: 1px  solid white;
+    padding: 0px 0px 0px 10px;
+}
+.three{
+    width: 60%;
+    border: 1px  solid white;
+    padding: 10px;
+    float: right;
+}
+.maintwo p:hover{
+background-color: rgb(49, 49, 49);
+}
+.maintwo p:active{
+    background-color: rgb(49, 49, 49);
+    border-right: 5px solid rgb(0, 110, 255);
+}

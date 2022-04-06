@@ -1,0 +1,285 @@
+
+.main{
+    width: 100%;
+    display: flex;
+}
+.logo{
+    display: flex;
+    width: 30%;
+    float: right;
+}
+.kil>i{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    float: right;
+    padding: 10PX;
+    margin-right: 170PX;
+    border-radius: 100px;
+    background-color: none;
+    margin-top: 10px;
+}
+.kil>i:hover{
+    border-radius: 100px;
+    background-color: rgb(29, 28, 28);
+}
+.logo p{
+    float: right;
+    font-size: 25px;
+    margin-right: 90PX;
+    border-radius: 100px;
+    background-color: none;
+    padding: 5px;
+    justify-content: right;
+}
+.logo p:hover{
+    background-color: rgb(29, 28, 28);
+    border-radius: 100px;
+}
+.logo p i{
+    font-size: 25px;
+}
+.mainone{
+    margin-top: 0px;
+    width: 40%;
+    border: 1px solid rgb(109, 109, 109);
+}
+.header{
+    padding: 0px 0px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.815);
+    border: none;
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+}
+.header input{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width:400px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: rgb(34, 33, 33);
+    border: none;
+}
+.header i{
+    font-size: 35px;
+    float: left;
+    line-height: 40px;
+}
+.logoone{
+    width: 30%;
+}
+.lio{
+    padding-left: 20px;
+}
+.kil{
+    width: 30%;
+    position: fixed;
+}
+.lio div:hover{
+    background-color: rgb(29, 28, 28);
+}
+.hui{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hui div:hover{
+    background-color: rgb(29, 28, 28);
+}
+.postone{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.postone i{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: grey;
+}
+.gr:hover{
+    color: rgb(0, 153, 255);
+    text-shadow: 0px 0px 10px rgb(0, 247, 255);
+    cursor: pointer;
+}
+.grt:hover{
+    color: rgb(0, 255, 0);
+    text-shadow: 0px 0px 30px rgb(166, 255, 0);
+    cursor: pointer;
+}
+.grr:hover{
+    color: purple;
+    text-shadow: 0px 0px 100px rgb(255, 255, 255);
+    cursor: pointer;
+}
+.posttwo{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.posttwo i{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: grey;
+}
+.logoone{
+    display: flex;
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+.who-to-follow {
+    border: 1px solid grey;
+    border-radius: 15px;
+  }
+
+  
+  .who-to-follow__block {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .who-to-follow__block:last-child {
+    border-bottom: none;
+  }
+  
+  .who-to-follow__author-logo {
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  
+  .who-to-follow__author-slug {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  
+  .who-to-follow__author-name {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .who-to-follow__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .who-to-follow__heading {
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .who-to-follow__button {
+    border: 1px solid #1da0f2;
+    color: #1da0f2;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 5px;
+    min-width: 67px;
+    text-align: center;
+  }
+  
+  .who-to-follow__button:hover {
+    background: rgba(29, 161, 242, 0.1);
+    cursor: pointer;
+  }
+  .trends-for-you {
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+  }
+  
+  .trends-for-you__block {
+    padding: 10px 15px;
+  }
+  
+  .trends-for-you__block:last-child {
+    border-bottom: none;
+  }
+  
+  .trends-for-you__heading {
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .trends-for-you__meta-information {
+    font-size: 13px;
+    font-weight: 300;
+    color: #657786;
+  }
+  
+  .trends-for-you__trend-name {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .layout__right-sidebar {
+    position: fixed;
+    width: 350px;
+  }
+.show i{
+      display: none;
+  }
+  .rere i{
+      display: none;
+  }
+  @media screen and (max-width:1064px){
+      .del i{
+          display: none;
+      }
+      .show i{
+          display: block ;
+      }
+      .trty{
+          display: none;
+      }
+      .kil>i{
+          margin-right: 96px;
+      }
+      .rere i{
+        display: block ;
+        float: right;
+      }
+      .rere{
+        margin-left: 100px;
+      }
+      .logo{
+        padding-right: 100px;
+      }
+  }
+@media screen and (max-width:1100px){
+    .logoone{
+      display: none;
+    }
+    .mainone{
+      width: 70%;
+    }
+    .header input{
+      width: 600%;
+    }
+    .header i{
+      display: none;
+    }
+}
+@media screen and (max-width:490px){
+  .logo{
+    display: none;
+  }
+  .mainone{
+    width: 80%;
+  }
+}
